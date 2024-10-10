@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+body{
+  background-color: wheat;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cont{
+ width: 1200px;
+ height: 900px;
+ display: flex;
+ justify-content:space-around;
+ border-radius: 20px;
+ background-color:white;
+ overflow: hidden;
+ 
+}
+.information, .perfume{
+  
+ width: 600px;
+
+  
+}
+.paragraph{
+  font-family: 'Montserrat' ,sans-serif;
+ font-size: 30px;
+ padding-left: 70px;
+ color: hsl(228, 12%, 48%);
+ padding-top: 1.5rem;
+ 
+
+ 
+}
+.a3{
+  letter-spacing: 8px;
+  font-size: 30px;
+  width: 5px;
+}
+.bold-title{
+  font-family: 'Fraunces',serif;
+  font-size: 80px;
+  padding-left: 70px;
+  color: hsl(212, 21%, 14%);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+ line-height: .9;
+}
+.num{
+  font-family: 'Fraunces',serif;
+  display: flex;
+  flex-direction: row;
+  padding-left: 70px;
+  align-items: center;
+}
+
+.num1{
+  font-size: 3rem;
+  font-weight:bold ;
+  color: hsl(158, 36%, 37%);
+}
+.num2{
+  padding-left: 3rem;
+  text-decoration: line-through;
+}
+.buttont{
+  justify-content: center;
+  font-family: Arial,sans-serif;
+  background-color:  hsl(158, 36%, 37%);
+  border: none;
+  color: hsl(30, 38%, 92%);
+  padding-inline: 9rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: .7rem;
+ /* font-weight: bold ; */
+ font-size: 25px;
+}
+.buttont:hover{
+  cursor: pointer;
+  background-color:  hsl(158, 35%, 33%);
+  
+
+}
+.button{
+  text-align: center;
+  
+}
+span{
+  margin-right: 20px;
+}
